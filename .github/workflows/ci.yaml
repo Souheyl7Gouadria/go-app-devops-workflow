@@ -33,9 +33,9 @@ jobs:
       run: go test ./...
   
   code-quality:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-  steps:
+    steps:
     - name: Checkout repository
       uses: actions/checkout@v4
 
